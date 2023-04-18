@@ -1,0 +1,29 @@
+.lists-nav {
+    background-color: rgb(246, 241, 207);
+    background-color: var(--mint-white);
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.477);
+    padding: 1rem;
+}
+
+.lists-nav nav {
+    /* background-color: yellow; */
+    /* width:max-content; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.add-list {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-list input{
+    margin: 0 10px;
+}

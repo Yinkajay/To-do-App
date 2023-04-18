@@ -17,17 +17,13 @@ const SingleList = ({ tasks, ListName }) => {
 
         setTask('')
     }
-
-
-
-
     return (
         <>
             <section className={classes.list}>
                 <h1>{ListName}</h1>
                 {tasks.map((task) => <ListItem key={task.id} id={task.id} text={task.task} />)}
                 <form onSubmit={addTaskHandler}>
-                    <input type="text" value={task} onChange={e => setTask(e.target.value)} />
+                    <input type="text" value={task} onChange={e => setTask(e.target.value)} placeholder="Add task"/>
                     <button type="submit">+</button>
                 </form>
             </section>

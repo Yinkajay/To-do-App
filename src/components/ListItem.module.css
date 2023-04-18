@@ -1,0 +1,10 @@
+.list-text{
+    margin: 10px;
+    /* border-bottom: 2px solid; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.447);
+    display: inline-block;
+}
+
+.list-text.complete{
+    text-decoration: line-through;
+}
