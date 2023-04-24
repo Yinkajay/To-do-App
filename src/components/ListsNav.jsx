@@ -15,9 +15,9 @@ const ListsNav = () => {
 
   return (
     <>
-      <div className={classes['lists-nav']}>
-        <h3>Task Lists</h3>
-        <nav>
+      {/* <div className={classes['lists-nav']}>   */}
+        {/* <h3>Task Lists</h3> */}
+        {/* <nav>
           {context.lists.map((list, index) => <Button key={list.name} onClick={() => context.changeList(list.name)}> {list.name}</Button>)}
           <div className={classes['add-list']}>
             <input value={listToAdd} onChange={(e) => setListToAdd(e.target.value)} type="text" placeholder="Add New List" />
@@ -25,8 +25,8 @@ const ListsNav = () => {
               Add List +
             </Button>
           </div>
-        </nav>
-      </div>
+        </nav> */}
+      {/* </div> */}
       <Container className={classes['lists-nav']}>
         <h3>Task Lists</h3>
         <nav>

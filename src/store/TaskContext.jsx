@@ -31,23 +31,22 @@ export const StateContextProvider = (props) => {
         }
         ]
     },
-    {
-        name: 'Weekly Tasks',
-        tasks: [{
-            id: '1',
-            task: 'Dance',
-            // completed: false
-        },
-        {
-            id: '2',
-            task: 'Cook',
-            // completed: false
-        },
-        ]
-    }
+    // {
+    //     name: 'Weekly Tasks',
+    //     tasks: [{
+    //         id: '1',
+    //         task: 'Dance',
+    //         // completed: false
+    //     },
+    //     {
+    //         id: '2',
+    //         task: 'Cook',
+    //         // completed: false
+    //     },
+    //     ]
+    // }
     ])
     const [activeList, setActiveList] = useState('Daily Tasks')
-
     const changeList = (listName) => {
         setActiveList(listName)
         console.log(listName)
